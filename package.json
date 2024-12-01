@@ -1,0 +1,23 @@
+{
+    "name": "web3-video-call-dapp",
+    "version": "1.0.0",
+    "description": "Decentralized Video Calling Application",
+    "main": "index.js",
+    "scripts": {
+      "dev": "hardhat node",
+      "compile": "hardhat compile",
+      "deploy": "hardhat run scripts/deploy.js",
+      "frontend": "cd frontend && npm start",
+      "test": "hardhat test"
+    },
+    "keywords": ["web3", "video", "dapp", "ethereum"],
+    "author": "Your Name",
+    "license": "MIT",
+    "devDependencies": {
+      "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+      "hardhat": "^2.16.1"
+    },
+    "dependencies": {
+      "@openzeppelin/contracts": "^4.9.2"
+    }
+  }
