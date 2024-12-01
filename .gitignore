@@ -1,0 +1,89 @@
+# Dependency directories
+node_modules/
+frontend/node_modules/
+.pnp/
+.pnp.js
+
+# Testing
+/coverage
+frontend/coverage/
+
+# Production build
+/build
+frontend/build/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.development
+.env.production
+
+# Hardhat & Blockchain
+cache/
+artifacts/
+**/artifacts/
+**/cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.DS_Store?
+._*
+
+# Compiled files
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Hardhat network files
+hardhat/deployments/localhost/
+hardhat/cache/
+
+# Typescript
+*.tsbuildinfo
+*.trace
+
+# Truffle
+.truffle-v5.config.js
+.truffle-v5.log
+
+# Frontend specific
+frontend/.eslintcache
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Package manager files
+package-lock.json
+yarn.lock
+frontend/package-lock.json
+frontend/yarn.lock
+
+# Deployment keys and sensitive files
+*.p12
+*.key
+*.pem
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+.temp/
+
+# Misc blockchain files
+.mnemonic
+.secret
